@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools >= 80.9.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "analisis_graficos"
+version = "0.0.1"
+description = "Ejemplo sencillo de como se empaqueta en python"
+readme = "README.md"
+authors = [
+	{ name = "Fran Pastor", email = "fj.pastor@ua.es" }
+	{ name = "invitado" }
+]
+license = { text = "PIT" }
+requires-python = ">=3.12"
+dependencies = [
+	"numpy>=2.3.4",
+	"matplotlib>=3.10.7",
+]
+keywords = ["numpy","matplotlib","graficos"]
+classifiers = [
+	"Development Status :: 3 · Alpha",
+	"Programming Language :: Python :: 3",
+	"Programming Language :: Python :: 3.12",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent"
+]
+[tool.setuptools]
+package-dir = {"" = "src" }
+[tool.setuptools.packages.find]
+where = ["src"]
