@@ -2,6 +2,6 @@
 Este paquete permite graficar funciones matemáticas sencillas usando numpy y matplotlib.
 
 # Ejemplo de uso
-import analisis_graficos as ag
+import analisis_graficos as ag \n
 ag.graficar_seno(10)
 
