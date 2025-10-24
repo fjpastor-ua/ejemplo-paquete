@@ -8,7 +8,7 @@ version = "0.0.1"
 description = "Ejemplo sencillo de como se empaqueta en python"
 readme = "README.md"
 authors = [
-	{ name = "Fran Pastor", email = "fj.pastor@ua.es" }
+	{ name = "Fran Pastor", email = "fj.pastor@ua.es" },
 	{ name = "invitado" }
 ]
 license = { text = "PIT" }
